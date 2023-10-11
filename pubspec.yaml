@@ -1,0 +1,39 @@
+name: myapp
+description: A exported flutter project from FUNCTION12
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.2 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.3
+  fluttertoast: ^8.0.7 
+
+  cupertino_icons: ^1.0.2
+  google_fonts: ^4.0.0  # Replace with your preferred version
+
+dependency_overrides:
+  google_fonts: ^4.0.0  # Replace with your preferred version
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/page-1/images/blinq-logo.png
+    - assets/page-1/images/blinq-logo-KER.png
+    - assets/page-1/images/group-1.png
+    - assets/page-1/images/auto-group-hkdx.png
+    - assets/page-1/images/screen.png  
